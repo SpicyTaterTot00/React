@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 import Cards from "./Cards"
 import{ Jumbotron } from 'reactstrap';
+import './App.css';
 
 class App extends Component{
   constructor(props){
@@ -12,7 +12,6 @@ class App extends Component{
     }
   }
   
-
   render(){
     let cname = "lead";
 

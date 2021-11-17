@@ -1,6 +1,6 @@
 import React from "react";
 
-const textForCards =(props)=>{
+const TextForCards =(props)=>{
     return(
         <div>
             Text from card {props.cardNum}
@@ -9,4 +9,4 @@ const textForCards =(props)=>{
     )
 }
 
-export default textForCards;
+export default TextForCards;

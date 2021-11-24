@@ -1,0 +1,12 @@
+import React from "react";
+
+const TextForCarousel =(props)=>{
+    return(
+        <div>
+            Text for slide {props.slideNum}
+        </div>
+
+    )
+}
+
+export default TextForCarousel;

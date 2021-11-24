@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cards from "./Cards"
+import theCarousel from "./Carousel"
 import{ Jumbotron } from 'reactstrap';
 import './App.css';
 
@@ -30,6 +31,9 @@ class App extends Component{
         fade2={this.state.fade2} 
         cardTwoState={this.cardTwoState}
         />
+        <theCarousel>
+
+        </theCarousel>
       </div>
     )
   }

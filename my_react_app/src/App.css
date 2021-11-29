@@ -38,6 +38,24 @@
 }
 
 .card{
+  text-align: center;
+  color: rgb(88, 170, 241);
+  width: 33.3%;
   display: inline-flex;
-  width: 30%;
+}
+
+.cards{
+  display: inline-flex;
+}
+
+
+
+h1{
+  color: rgb(25, 116, 85);
+  text-align: center;
+}
+
+p{
+  color: #1b4e5c;
+  text-align: center;
 }

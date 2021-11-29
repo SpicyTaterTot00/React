@@ -28,6 +28,7 @@ class App extends Component{
           <p>Playing with reactstrap</p>
           <p classname={cname}></p>
         </Jumbotron>
+        
         <Cards 
         fade1={this.state.fade1} 
         cardOneState={this.cardOneState}

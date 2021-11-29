@@ -39,6 +39,8 @@ class App extends Component{
         cardFourState={this.cardFourState}
         fade5={this.state.fade5} 
         cardFiveState={this.cardFiveState}
+        fade6={this.state.fade6} 
+        cardSixState={this.cardSixState}
         />
       </div>
     )

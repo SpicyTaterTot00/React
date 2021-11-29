@@ -21,6 +21,7 @@ class App extends Component{
 
     return(
       <div>
+       
         <Jumbotron>
           <h1 classname= "display-3"> My First React App</h1>
           <p classname={cname}> My first attempt at it</p>
@@ -29,6 +30,7 @@ class App extends Component{
           <p classname={cname}></p>
         </Jumbotron>
         
+       
         <Cards 
         fade1={this.state.fade1} 
         cardOneState={this.cardOneState}

@@ -39,23 +39,36 @@
 
 .card{
   text-align: center;
-  color: rgb(88, 170, 241);
+  color: rgb(117, 48, 91);
+  font-weight: bold;
   width: 33.3%;
   display: inline-flex;
+  background-color: goldenrod;
 }
 
-.cards{
+.cardbody{
   display: inline-flex;
+
 }
 
+.jumbotron{
+  background-color: rgb(117, 48, 91);
+}
+
+body {
+  background-color: rgb(25, 116, 85);
+}
 
 
 h1{
   color: rgb(25, 116, 85);
   text-align: center;
+  font-family:fantasy;
+  background-color: goldenrod;
 }
 
 p{
   color: #1b4e5c;
   text-align: center;
+  background-color: goldenrod;
 }

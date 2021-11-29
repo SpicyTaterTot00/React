@@ -10,9 +10,9 @@ const Cards = (props) =>{
             <CardTitle>My Card</CardTitle>
             <Button onClick= {()=> props.cardOneState()}> Button</Button>
             <Fade in = {props.fade1} classname= "my-2">
-              <CardText>
+              {props.fade1 ? <CardText>
                 <TextForCards cardNum={1} />
-              </CardText>
+              </CardText> : null}
             </Fade>
           </CardBody>
         </Card>
@@ -22,9 +22,9 @@ const Cards = (props) =>{
             <CardTitle>My Second Card</CardTitle>
             <Button onClick= {()=> props.cardTwoState()}> Button</Button>
             <Fade in = {props.fade2} classname= "my-2">
-              <CardText>
+              {props.fade2 ? <CardText>
               <TextForCards cardNum={2} />
-              </CardText>
+              </CardText> : null}
             </Fade>
           </CardBody>
         </Card>
